@@ -47,9 +47,10 @@ top and bottom, 30 for the left and right*/
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
 /* YOUR CODE HERE */
-.rows .item {
+.row {
    
     margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -65,7 +66,8 @@ full opacity when hovered over! It should also have a
 transition period of 0.2 seconds*/
 
 .item:hover {
-    opacity: 1
+    opacity: 1;
+    transition-duration: 200;
 
 }
 
@@ -82,7 +84,7 @@ larger when clicked on!*/
 /* PROBLEM 10: Add a hover effect such that the text of the
 navigation has an opacity of 1 when hovered over!*/
 /* YOUR CODE HERE */
-#navbar:hover {
+#navbar-item:hover {
     opacity: 0;
 }
 
